@@ -1,0 +1,245 @@
+body {font-family: 'Josefin Sans', sans-serif;color: #260635;}
+
+/* navbar */
+.navbar-me{
+    background-color: #d12271;
+    z-index: 9999;
+    }
+    
+    .navbar-nav li{
+        padding-right: 1rem;
+    }
+    /* /navbar */
+    
+    /* header */
+    
+    .header{
+    background-image: url(../img/header-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    }
+    
+    .header-layer{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .header-btn:hover{
+    background-color: #fff;
+    color: #000 !important;
+    transition: 0.7s;
+    }
+    
+    .scroll{
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%);
+        border: 2px white solid;
+        animation: scroll 1.5s infinite ;
+        padding: 2rem .8rem 1rem;
+    
+    }
+    .scroll-content{
+        background-color: white;
+        width: 3px;
+        height: 8px;
+    }
+    
+    @keyframes scroll{
+    0%{
+    bottom: 10%;
+    }
+    
+    25%{
+    bottom: 7%;
+    }
+    
+    50%{
+    bottom: 10%;
+    }
+    
+    75%{
+    bottom: 5%;
+    }
+    
+    
+    100%{
+        bottom: 10%;
+    }
+    
+    }
+    /* /header */
+    
+    
+    
+    /* ourblog */
+    
+    .ourblog-card {box-shadow: 5px 5px 15px 0px rgba(10,10,10,.15);}
+    .ourblog-card span{
+    color: #d12271 !important;
+    font-weight: bold;
+    }
+    
+    .ourblog-card a{
+       text-decoration: none;
+       color: #000; 
+    }
+    
+    .ourblog-card p{
+        color: #84757D;
+    }
+    .blogread{color: #260635bb !important;}
+    /* /ourblog */
+
+/* about */
+.aboutimg {border: 5px solid #f0f0f0; border-radius: 5px;}
+.abouttxt span {color: #D12271;}
+.oneicon {
+    width: 35px; 
+    height: 35px; 
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D12271;
+    font-size: 20px;
+    transition: all 1s;
+}
+.oneicon:hover {color: #37003C;}
+
+
+.breakline {
+    width: 15%;
+    height: 2px;
+    background-color: #08D97D;
+    margin: auto;
+    transition: width 1s;
+}
+
+.icons {
+    color: #D12271;
+    line-height: 15rem;
+}
+.oneservice {
+    line-height: 1.5rem;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.oneservice p {
+    color: rgb(119, 118, 118);
+}
+.oneservice:hover .breakline {
+    width: 25%;
+}
+.clientcol 
+{
+    box-shadow: 0 5px 15px 0 rgba(10,10,10,.15), 0 10px 20px -20px rgba(0,0,0,.35); 
+    padding-top: 10px;
+    border-radius: 15px;
+}
+.clientcol p,h5 {color: #260635 !important;}
+.clienticon {font-size: 50px; margin-bottom: 20px; color: #64156b; }
+.clientimg {width: 100px; height: 100px; border-radius: 50%; border:2px solid #d1227157;}
+.clienttxt {position: static;}
+.refoo li {background-color: #D12271; width: 10px; height: 10px; border-radius: 50%}
+.ourworks .container p {
+    color: #6c757d;
+}
+.Worksnav a {
+    color: #260635;
+transition: all 1s;
+}
+.
+
+.worksnav li {
+    margin-left: 10px;
+}
+
+.Worksnav a:hover {
+    background-color: #d12271;
+    border-radius: 30px;
+}
+.Worksnav a.active  {
+    background-color: #d12271 !important;
+    border-radius: 30px;
+}
+
+.workimgcaption {
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    left: 0px;
+}
+.workimgcaption {
+    transition: all 0.5s;
+}
+.onework{
+    overflow: hidden;
+}
+.onework img {
+    transition: all 1s;
+}
+.layer {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5;
+}
+
+.onework:hover .layer {
+    background-color: rgba(5, 5, 5, 0.562) ;
+}
+.onework:hover img {
+    transform: scale(1.2);
+}
+
+.onework:hover .workimgcaption {
+    top: 0%;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end about */
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px)
+{
+   
+}
+
+@media only screen and (min-width: 600px) 
+{
+    
+}
+
+@media only screen and (min-width: 768px) 
+{
+   
+}
+
+@media only screen and (min-width: 992px) 
+
+
+@media only screen and (min-width: 1200px) 
