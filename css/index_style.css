@@ -3,9 +3,9 @@ body {font-family: 'Josefin Sans', sans-serif;color: #2C2C2C;}
 .navbar {padding: 0.7rem 1rem;}
 .mynav {position: relative; background-color: #cd98b23d !important;}
 .refoo1 {background-image: url(../img/2.jpg); background-size: cover;}
-.cartext h3 {font-size: 4rem;color: #2c2c2c;}
-.pfirt  {color: #000000 !important;}
-.cartext {color: #ffffff; position: relative; top: 200; background-color: #6b6b6b4f; width: 520px; margin: auto; padding: 15; border-radius: 20px;}
+.cartext h3 {font-size: 4rem;color: #fffff7;}
+.pfirt  {color: #ffffff !important;}
+.cartext {color: #ffffff; position: relative; top: 200; background-color: #6b6b6b91; width: 520px; margin: auto; padding: 15; border-radius: 10px;}
 .cartext button {border: none; padding: 10px 20px; background-color: #2c2c2c;border-radius: 10px; color: #ffffff; margin-right: 10;}
 .refoo2 {background-image: url(../img/3.jpg); background-size: cover;}
 .test1 {width: 50px; height: 50px; top: 35%; border: 1px solid white; border-left:none; color: white; transition: all 1s;}
@@ -159,7 +159,7 @@ body {font-family: 'Josefin Sans', sans-serif;color: #2C2C2C;}
     .clienttxt {padding: 10; height: 50vh;}
     .test1 {visibility: hidden;}
     .test2 {visibility: hidden;}
-    .cartext h3 {font-size: 2.5rem; color: #fffff7;}
+    .cartext h3 {font-size: 2.5rem;}
     .cartext {width: 400px; }
     .backtxt, .backtxt1 , .backtxt2, .backtxt3 {visibility: hidden;}
     .popular {width: 90px; font-size: 20px;}
@@ -170,7 +170,6 @@ body {font-family: 'Josefin Sans', sans-serif;color: #2C2C2C;}
     .clienttxt {padding: 10; height: 50vh;}
     .test1 {visibility: hidden;}
     .test2 {visibility: hidden;}
-    .cartext h3 {color: #fffff7;}
     .lasttxt {top: 80%;}
     .lasttxt p {font-size: 18px;}
     .popular {width: 90px; font-size: 20px;}
@@ -188,7 +187,6 @@ body {font-family: 'Josefin Sans', sans-serif;color: #2C2C2C;}
 
 @media only screen and (min-width: 992px) 
 {
-    .cartext h3 {color: #2c2c2c;}
     .lasttxt p {font-size: 13px;}
     .lasttxt {top: 60%;}
     .popular {width: 70px; font-size: 15px; left: 57%;}
